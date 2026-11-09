@@ -223,3 +223,11 @@ footer a:hover{color:#fff;border-color:#fff}
 .lang a.on{background:var(--ink);color:#fff}
 html[lang="en"] body{word-break:normal}
 .right .lang{order:2}.right .menu-btn{order:3}
+
+/* Kyung Hee University logo */
+.khu-emblem{height:38px;width:auto;flex:none;display:block;padding-right:14px;border-right:1px solid var(--line)}
+.khu-foot,.khu-foot:hover{border:0!important;text-decoration:none!important;background:none!important}
+.khu-foot{display:inline-block;margin-bottom:36px;opacity:.9;transition:opacity .2s}
+.khu-foot:hover{opacity:1}
+.khu-foot img{height:72px;width:auto;display:block}
+@media (max-width:720px){.khu-emblem{height:28px;padding-right:0;border-right:0}.brand{gap:10px}.khu-foot img{height:60px}}
